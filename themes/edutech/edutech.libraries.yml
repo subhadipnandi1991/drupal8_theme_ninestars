@@ -1,0 +1,22 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/aos.css: {}
+      css/bootstrap.min.css: {}
+      css/bootstrap-icons.css: {}
+      css/boxicons.min.css: {}
+      css/glightbox.min.css: {}
+      css/swiper-bundle.min.css: {}
+  js:
+    js/aos.js: {}
+    js/validate.js: {}
+    js/isotope.pkgd.min.js: {}
+    js/glightbox.min.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/swiper-bundle.min.js: {}
+    js/test.js: {}
+    js/main.js: {}
+    
+  dependencies:
+    - core/jquery

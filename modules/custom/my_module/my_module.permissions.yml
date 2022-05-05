@@ -1,0 +1,3 @@
+module permission:
+  title: My Module Page
+  description: You can change the permission of this module.

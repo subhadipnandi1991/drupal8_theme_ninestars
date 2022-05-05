@@ -1,0 +1,20 @@
+name: Edutech
+description: This is a custom made theme for Edutech
+type: theme
+core: 8.x
+
+libraries:
+  - edutech/global-styling
+
+regions:
+  logo: 'Logo'
+  menu: 'Menu'
+  content: 'Content'
+  about: 'About'
+  services: 'Services'
+  portfolio: 'Portfolio'
+  faq: 'FAQ'
+  team: 'Team'
+  clients: 'Clients'
+  contact: 'Contact'
+  footer: 'Footer'

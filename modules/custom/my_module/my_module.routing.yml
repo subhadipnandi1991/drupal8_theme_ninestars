@@ -1,0 +1,16 @@
+my_module.myModule:
+  path: '/my-module'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\MyModuleController::myModule'
+    _title: 'My Module'
+  requirements:
+    _permission: 'module permission'
+
+my_module.myInfo:
+  path: '/my-info'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\MyModuleController::myInfo'
+    _title: 'My Info'
+  requirements:
+    _permission: 'access content'
+    _role: 'badshah007'

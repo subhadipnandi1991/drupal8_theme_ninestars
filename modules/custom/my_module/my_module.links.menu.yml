@@ -1,0 +1,16 @@
+my_module.myModule:
+  title: My Module
+  description: My Module Link
+  route_name: my_module.myModule
+  weight: 2
+  menu_name: main
+  options:
+    attributes:
+      target: _blank
+
+my_module.myInfo:
+  title: My Info
+  description: My Info Link
+  route_name: my_module.myInfo
+  weight: 3
+  menu_name: main

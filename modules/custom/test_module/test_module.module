@@ -1,0 +1,13 @@
+<?php
+  function test_module_theme($existing, $theme, $type, $path)
+  {
+    return array(
+      'info_page' => array(
+        'variables' => array(
+          'items' => [],
+          'title' => ''
+        )
+      )
+    );
+  }
+ ?>

@@ -1,0 +1,5 @@
+name: Test Module
+description: This is a module to test php codes into drupal
+type: module
+package: Custom module
+core_version_requirement: 8.x

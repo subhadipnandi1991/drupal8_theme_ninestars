@@ -1,0 +1,5 @@
+name: Contact Form Block Delicious
+description: This is a customized contact form block module for the delicious theme.
+type: module
+package: Custom module
+core_version_requirement: 8.x

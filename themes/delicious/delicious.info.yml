@@ -1,0 +1,23 @@
+name: Delicious
+description: This is a custom made theme for Delicious
+type: theme
+core: 8.x
+
+libraries:
+  - delicious/global-styling
+
+regions:
+  topbar: 'Top Bar'
+  header: 'Header'
+  content: 'Content'
+  about: 'About'
+  why-us: 'Why Us'
+  food-menu: 'Food Menu'
+  special: 'Special'
+  events: 'Events'
+  book-table: 'Table Booking'
+  gallery: 'Gallery'
+  chefs: 'Chefs'
+  testimonials: 'Testimonials'
+  contact: 'Contact'
+  footer: 'Footer'

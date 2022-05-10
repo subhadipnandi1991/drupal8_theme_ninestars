@@ -26,7 +26,8 @@
         '#type' => 'textfield',
         '#required' => 'true',
         '#attributes' => array(
-          'placeholder' => 'Your Name'
+          'placeholder' => 'Your Name',
+          'class' => array('form-control')
         )
       );
 
@@ -34,7 +35,8 @@
         '#type' => 'email',
         '#required' => 'true',
         '#attributes' => array(
-          'placeholder' => 'Your Email'
+          'placeholder' => 'Your Email',
+          'class' => array('form-control')
         )
       );
 
@@ -42,7 +44,8 @@
         '#type' => 'textfield',
         '#required' => 'true',
         '#attributes' => array(
-          'placeholder' => 'Subject'
+          'placeholder' => 'Subject',
+          'class' => array('form-control')
         )
       );
 
@@ -50,14 +53,18 @@
         '#type' => 'textarea',
         '#required' => 'true',
         '#attributes' => array(
-          'placeholder' => 'Your Message'
+          'placeholder' => 'Your Message',
+          'class' => array('form-control')
         )
       );
 
       $form['save'] = array(
         '#type' => 'submit',
         '#value' => 'Send Message',
-        '#button_type' => 'primary'
+        '#button_type' => 'primary',
+        '#attributes' => array(
+          'class' => array('text-center')
+        )
       );
 
       return $form;

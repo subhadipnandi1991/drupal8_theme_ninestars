@@ -15,7 +15,7 @@ regions:
   foodmenu: 'Food Menu'
   special: 'Special'
   events: 'Events'
-  book-table: 'Table Booking'
+  booktable: 'Table Booking'
   gallery: 'Gallery'
   chefs: 'Chefs'
   testimonials: 'Testimonials'

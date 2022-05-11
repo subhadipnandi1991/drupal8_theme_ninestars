@@ -11,5 +11,6 @@ $(document).ready(function() {
   }
 
   $('div.php-email-form').addClass('container');
-
+  $('div.book-a-table').addClass('container');
+  // $('input.form-submit').add('div');
 });

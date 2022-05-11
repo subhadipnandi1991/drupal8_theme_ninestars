@@ -1,0 +1,5 @@
+name: Book Table Form Block
+description: This is a customized book table form block module.
+type: module
+package: Custom module
+core_version_requirement: 8.x

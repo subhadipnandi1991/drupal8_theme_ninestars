@@ -25,7 +25,7 @@
        $form = \Drupal::formBuilder()->getForm('Drupal\contact_form_block\Form\ContactForm');
 
        return $form;
-      }
+     }
    }
 
 ?>
